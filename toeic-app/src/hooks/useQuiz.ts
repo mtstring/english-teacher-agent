@@ -83,7 +83,7 @@ export function useQuiz(sessionType: SessionType, questionCount = 5) {
       await db.dailyRecords.put(record);
 
       // Sync progress to agent
-      syncProgress();
+      await syncProgress();
     }
 
     setState({

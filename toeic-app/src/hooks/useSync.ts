@@ -63,8 +63,13 @@ export async function syncProgress(): Promise<void> {
       .from("progress")
       .upsert({ user_id: "default", data: payload }, { onConflict: "user_id" });
 
-    if (error) console.warn("[Sync] Supabase error:", error.message);
+    if (error) {
+      console.warn("[Sync] Supabase error:", error.message);
+      throw new Error(error.message);
+    }
+    console.log("[Sync] Progress synced successfully");
   } catch (err) {
     console.warn("[Sync] Failed to sync progress:", err);
+    throw err;
   }
 }

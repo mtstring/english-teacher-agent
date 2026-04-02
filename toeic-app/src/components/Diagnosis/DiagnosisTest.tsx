@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useQuiz } from "../../hooks/useQuiz";
 import { QuestionCard } from "../Quiz/QuestionCard";
 import { setUserState } from "../../db";
+import { syncProgress } from "../../hooks/useSync";
 import questionsData from "../../data/questions.json";
 import type { Question } from "../../db";
 
@@ -57,6 +58,7 @@ export function DiagnosisTest() {
       setUserState("diagnosisDone", true);
       setUserState("estimatedScore", estimated);
       setUserState("diagnosisAccuracy", Math.round(rate * 100));
+      syncProgress();
     }
   }, [results]);
 
