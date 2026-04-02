@@ -1,0 +1,825 @@
+[
+  {
+    "id": "p5-001",
+    "part": 5,
+    "category": "grammar-tense",
+    "stem": "The project manager ______ the report before the deadline last Friday.",
+    "choices": ["submits", "submitted", "has submitted", "will submit"],
+    "answer": 1,
+    "explanation": "Past tense is needed because 'last Friday' indicates a specific time in the past.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-002",
+    "part": 5,
+    "category": "grammar-tense",
+    "stem": "By the time the CEO arrives, we ______ the presentation.",
+    "choices": ["finish", "finished", "will have finished", "are finishing"],
+    "answer": 2,
+    "explanation": "'By the time + present tense' requires future perfect: will have + past participle.",
+    "difficulty": 3
+  },
+  {
+    "id": "p5-003",
+    "part": 5,
+    "category": "grammar-article",
+    "stem": "______ information you provided was very helpful for our research.",
+    "choices": ["A", "An", "The", "---"],
+    "answer": 2,
+    "explanation": "'The' is needed because 'you provided' specifies which information (definite article).",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-004",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The company decided to ______ its operations to Southeast Asia.",
+    "choices": ["expand", "expend", "extend", "expose"],
+    "answer": 0,
+    "explanation": "'Expand operations' means to grow or increase business activities in new areas.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-005",
+    "part": 5,
+    "category": "grammar-preposition",
+    "stem": "The new policy will go ______ effect starting next month.",
+    "choices": ["in", "into", "on", "with"],
+    "answer": 1,
+    "explanation": "'Go into effect' is a fixed expression meaning to become active/operational.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-006",
+    "part": 5,
+    "category": "grammar-relative",
+    "stem": "The candidate ______ resume was the most impressive got the job.",
+    "choices": ["who", "whom", "whose", "which"],
+    "answer": 2,
+    "explanation": "'Whose' is the possessive relative pronoun, modifying 'resume' (the candidate's resume).",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-007",
+    "part": 5,
+    "category": "grammar-voice",
+    "stem": "All employees are required ______ the new safety training by March.",
+    "choices": ["complete", "completing", "to complete", "completed"],
+    "answer": 2,
+    "explanation": "'Be required to + infinitive' is the standard pattern.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-008",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The quarterly report showed a ______ increase in revenue.",
+    "choices": ["significant", "signify", "significance", "significantly"],
+    "answer": 0,
+    "explanation": "An adjective is needed to modify the noun 'increase'. 'Significant' is the adjective form.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-009",
+    "part": 5,
+    "category": "grammar-conditional",
+    "stem": "If the shipment ______ on time, we would not have lost the client.",
+    "choices": ["arrived", "had arrived", "arrives", "would arrive"],
+    "answer": 1,
+    "explanation": "Third conditional (past unreal): If + had + past participle, would have + past participle.",
+    "difficulty": 3
+  },
+  {
+    "id": "p5-010",
+    "part": 5,
+    "category": "grammar-agreement",
+    "stem": "Neither the manager nor the employees ______ aware of the policy change.",
+    "choices": ["was", "were", "is", "has been"],
+    "answer": 1,
+    "explanation": "With 'neither...nor', the verb agrees with the nearest subject ('employees' = plural → 'were').",
+    "difficulty": 3
+  },
+  {
+    "id": "p5-011",
+    "part": 5,
+    "category": "grammar-gerund",
+    "stem": "The company is considering ______ a new branch in Tokyo.",
+    "choices": ["open", "to open", "opening", "opened"],
+    "answer": 2,
+    "explanation": "'Consider' is followed by a gerund (-ing form), not an infinitive.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-012",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "Please ______ the attached document for your reference.",
+    "choices": ["see", "watch", "look", "refer"],
+    "answer": 0,
+    "explanation": "'Please see the attached' is the standard business English expression.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-013",
+    "part": 5,
+    "category": "grammar-comparative",
+    "stem": "This year's sales figures are ______ than last year's.",
+    "choices": ["more impressive", "most impressive", "impressive", "as impressive"],
+    "answer": 0,
+    "explanation": "Comparing two things (this year vs. last year) requires the comparative form: 'more impressive than'.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-014",
+    "part": 5,
+    "category": "grammar-conjunction",
+    "stem": "______ the weather was bad, the outdoor event was still successful.",
+    "choices": ["Despite", "Although", "Because", "However"],
+    "answer": 1,
+    "explanation": "'Although' is a conjunction that introduces a contrast clause. 'Despite' requires a noun, not a clause.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-015",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The IT department will ______ the software update next week.",
+    "choices": ["implement", "imply", "import", "impose"],
+    "answer": 0,
+    "explanation": "'Implement' means to put into action or carry out. It's commonly used with updates, policies, and plans.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-016",
+    "part": 5,
+    "category": "grammar-passive",
+    "stem": "The annual report ______ by the finance department every December.",
+    "choices": ["prepares", "is prepared", "preparing", "has preparing"],
+    "answer": 1,
+    "explanation": "Passive voice is needed: the report doesn't prepare itself, it IS prepared by someone.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-017",
+    "part": 5,
+    "category": "grammar-infinitive",
+    "stem": "The manager asked the team ______ overtime this weekend.",
+    "choices": ["work", "working", "to work", "worked"],
+    "answer": 2,
+    "explanation": "'Ask someone to do something' requires the infinitive form.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-018",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The company offers a ______ benefits package to all full-time employees.",
+    "choices": ["comprehend", "comprehensive", "comprehension", "comprehensively"],
+    "answer": 1,
+    "explanation": "An adjective is needed before the noun 'benefits package'. 'Comprehensive' means thorough/complete.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-019",
+    "part": 5,
+    "category": "grammar-modal",
+    "stem": "Employees ______ wear their ID badges at all times while in the building.",
+    "choices": ["must", "would", "could", "might"],
+    "answer": 0,
+    "explanation": "'Must' expresses obligation/requirement. The context of 'at all times' suggests a mandatory rule.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-020",
+    "part": 5,
+    "category": "grammar-pronoun",
+    "stem": "Each department should submit ______ budget proposal by the end of this month.",
+    "choices": ["their", "its", "his", "they"],
+    "answer": 1,
+    "explanation": "'Each department' is singular, so the singular possessive pronoun 'its' is correct.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-021",
+    "part": 5,
+    "category": "grammar-adverb",
+    "stem": "The new software works ______ than the previous version.",
+    "choices": ["efficient", "more efficiently", "most efficient", "efficiency"],
+    "answer": 1,
+    "explanation": "An adverb is needed to modify 'works'. Comparative form: 'more efficiently than'.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-022",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "We need to ______ a meeting to discuss the project timeline.",
+    "choices": ["arrange", "array", "arrest", "arise"],
+    "answer": 0,
+    "explanation": "'Arrange a meeting' means to organize or set up a meeting.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-023",
+    "part": 5,
+    "category": "grammar-tense",
+    "stem": "The company ______ in the industry for over 50 years.",
+    "choices": ["is", "was", "has been", "had been"],
+    "answer": 2,
+    "explanation": "'For over 50 years' with present relevance requires present perfect: 'has been'.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-024",
+    "part": 5,
+    "category": "grammar-preposition",
+    "stem": "The training session is scheduled ______ Monday at 10 AM.",
+    "choices": ["on", "in", "at", "by"],
+    "answer": 0,
+    "explanation": "'On' is used with specific days: on Monday, on Friday, etc.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-025",
+    "part": 5,
+    "category": "grammar-conjunction",
+    "stem": "You may either attend the morning session ______ the afternoon one.",
+    "choices": ["and", "but", "or", "nor"],
+    "answer": 2,
+    "explanation": "'Either...or' is a correlative conjunction pair expressing a choice between two options.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-026",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The marketing team will ______ a new advertising campaign next quarter.",
+    "choices": ["launch", "lunch", "latch", "lunge"],
+    "answer": 0,
+    "explanation": "'Launch a campaign' means to start or introduce a new marketing effort.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-027",
+    "part": 5,
+    "category": "grammar-participle",
+    "stem": "The report, ______ by the senior analyst, contained several errors.",
+    "choices": ["write", "writing", "written", "wrote"],
+    "answer": 2,
+    "explanation": "Past participle 'written' is used in reduced relative clause (= which was written by).",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-028",
+    "part": 5,
+    "category": "grammar-subjunctive",
+    "stem": "The manager suggested that the report ______ rewritten before submission.",
+    "choices": ["is", "be", "was", "were"],
+    "answer": 1,
+    "explanation": "After 'suggest/recommend/insist that', use the base form of the verb (subjunctive mood).",
+    "difficulty": 3
+  },
+  {
+    "id": "p5-029",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "Due to budget ______, the company had to reduce its workforce.",
+    "choices": ["constraints", "constructs", "contents", "contracts"],
+    "answer": 0,
+    "explanation": "'Budget constraints' means limitations or restrictions on available funds.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-030",
+    "part": 5,
+    "category": "grammar-relative",
+    "stem": "The hotel ______ we stayed last summer has been renovated.",
+    "choices": ["which", "where", "that", "what"],
+    "answer": 1,
+    "explanation": "'Where' is used for places. 'The hotel where we stayed' = 'the hotel at which we stayed'.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-031",
+    "part": 5,
+    "category": "grammar-tense",
+    "stem": "I ______ the email when my computer suddenly crashed.",
+    "choices": ["write", "wrote", "was writing", "have written"],
+    "answer": 2,
+    "explanation": "Past continuous for an action in progress when interrupted: 'was writing when... crashed'.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-032",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The CEO expressed ______ about the declining market share.",
+    "choices": ["concern", "concerned", "concerning", "concerns"],
+    "answer": 0,
+    "explanation": "'Express concern' is a standard collocation. 'Concern' as an uncountable noun works here.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-033",
+    "part": 5,
+    "category": "grammar-article",
+    "stem": "______ United States is one of the largest economies in the world.",
+    "choices": ["A", "An", "The", "---"],
+    "answer": 2,
+    "explanation": "Country names with 'United/Republic/Kingdom' take 'the': the United States, the UK.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-034",
+    "part": 5,
+    "category": "grammar-conditional",
+    "stem": "If you ______ any questions, please don't hesitate to ask.",
+    "choices": ["have", "had", "will have", "would have"],
+    "answer": 0,
+    "explanation": "First conditional/open conditional: If + present tense for real/possible situations.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-035",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "All employees must ______ with the company's code of conduct.",
+    "choices": ["comply", "complete", "compete", "compare"],
+    "answer": 0,
+    "explanation": "'Comply with' means to follow or obey rules/regulations.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-036",
+    "part": 5,
+    "category": "grammar-gerund",
+    "stem": "We look forward to ______ from you soon.",
+    "choices": ["hear", "hearing", "heard", "hears"],
+    "answer": 1,
+    "explanation": "'Look forward to' is followed by a gerund (-ing). 'To' here is a preposition, not part of infinitive.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-037",
+    "part": 5,
+    "category": "grammar-passive",
+    "stem": "The building ______ in 1920 and has been renovated several times since.",
+    "choices": ["constructed", "was constructed", "is constructed", "constructing"],
+    "answer": 1,
+    "explanation": "Past passive: the building was constructed (by someone) in 1920.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-038",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The seminar provided ______ insights into modern marketing strategies.",
+    "choices": ["value", "valuable", "valuably", "valuation"],
+    "answer": 1,
+    "explanation": "An adjective is needed before the noun 'insights'. 'Valuable' means having great worth.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-039",
+    "part": 5,
+    "category": "grammar-modal",
+    "stem": "You ______ have informed me earlier about the schedule change.",
+    "choices": ["should", "would", "could", "might"],
+    "answer": 0,
+    "explanation": "'Should have + past participle' expresses regret or criticism about a past action.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-040",
+    "part": 5,
+    "category": "grammar-preposition",
+    "stem": "The new policy is aimed ______ improving employee satisfaction.",
+    "choices": ["for", "to", "at", "on"],
+    "answer": 2,
+    "explanation": "'Aimed at + gerund' is a fixed expression meaning intended to achieve something.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-041",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The company's ______ has grown steadily over the past decade.",
+    "choices": ["revenue", "review", "revise", "reverse"],
+    "answer": 0,
+    "explanation": "'Revenue' means income earned by a business. It commonly 'grows' or 'declines'.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-042",
+    "part": 5,
+    "category": "grammar-agreement",
+    "stem": "The number of applicants ______ increased dramatically this year.",
+    "choices": ["have", "has", "are", "were"],
+    "answer": 1,
+    "explanation": "'The number of' is singular (one number), so it takes 'has'. (vs. 'A number of' = many → plural)",
+    "difficulty": 3
+  },
+  {
+    "id": "p5-043",
+    "part": 5,
+    "category": "grammar-infinitive",
+    "stem": "It is important ______ all safety procedures before operating the machine.",
+    "choices": ["follow", "following", "to follow", "followed"],
+    "answer": 2,
+    "explanation": "'It is + adjective + to + infinitive' is the standard pattern.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-044",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The meeting has been ______ to next Thursday due to scheduling conflicts.",
+    "choices": ["postponed", "proposed", "promoted", "processed"],
+    "answer": 0,
+    "explanation": "'Postpone' means to delay or move to a later time.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-045",
+    "part": 5,
+    "category": "grammar-conjunction",
+    "stem": "The product is popular ______ it is affordable and high-quality.",
+    "choices": ["although", "because", "unless", "while"],
+    "answer": 1,
+    "explanation": "'Because' introduces the reason: the product is popular BECAUSE of its price and quality.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-046",
+    "part": 5,
+    "category": "grammar-pronoun",
+    "stem": "The clients were satisfied with the service, so they renewed ______ contracts.",
+    "choices": ["its", "his", "their", "our"],
+    "answer": 2,
+    "explanation": "'Clients' is plural, so 'their' (plural possessive pronoun) is correct.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-047",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "Please ensure that all documents are ______ before the audit.",
+    "choices": ["accurate", "accuracy", "accurately", "accurateness"],
+    "answer": 0,
+    "explanation": "After 'are' (linking verb), use an adjective: 'documents are accurate'.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-048",
+    "part": 5,
+    "category": "grammar-tense",
+    "stem": "The factory ______ 500 units daily since the new equipment was installed.",
+    "choices": ["produces", "produced", "has produced", "had produced"],
+    "answer": 2,
+    "explanation": "'Since' + past event requires present perfect: 'has produced' (started in past, continues now).",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-049",
+    "part": 5,
+    "category": "grammar-comparative",
+    "stem": "Of all the proposals submitted, Ms. Chen's was ______ .",
+    "choices": ["more creative", "most creative", "the most creative", "as creative"],
+    "answer": 2,
+    "explanation": "Superlative with 'of all': 'the most + adjective' for comparing three or more things.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-050",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The supervisor will ______ the progress of the project on a weekly basis.",
+    "choices": ["monitor", "monopolize", "modify", "motivate"],
+    "answer": 0,
+    "explanation": "'Monitor progress' means to regularly check and track how something is developing.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-051",
+    "part": 5,
+    "category": "grammar-participle",
+    "stem": "______ the high demand, the company decided to increase production.",
+    "choices": ["Give", "Given", "Giving", "Gave"],
+    "answer": 1,
+    "explanation": "'Given' (= considering) is a past participle used as a preposition meaning 'in view of'.",
+    "difficulty": 3
+  },
+  {
+    "id": "p5-052",
+    "part": 5,
+    "category": "grammar-preposition",
+    "stem": "The conference will take place ______ the Grand Hotel.",
+    "choices": ["in", "on", "at", "by"],
+    "answer": 2,
+    "explanation": "'At' is used for specific locations/venues: at the hotel, at the office.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-053",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The board of directors unanimously ______ the merger proposal.",
+    "choices": ["approved", "approached", "appointed", "appealed"],
+    "answer": 0,
+    "explanation": "'Approve a proposal' means to officially agree to or accept it.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-054",
+    "part": 5,
+    "category": "grammar-voice",
+    "stem": "Customers are advised ______ their receipts for warranty purposes.",
+    "choices": ["keep", "keeping", "to keep", "kept"],
+    "answer": 2,
+    "explanation": "'Be advised to + infinitive' is the standard passive pattern.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-055",
+    "part": 5,
+    "category": "grammar-relative",
+    "stem": "The reason ______ the meeting was cancelled has not been explained.",
+    "choices": ["which", "why", "that", "where"],
+    "answer": 1,
+    "explanation": "'The reason why' introduces a reason clause. 'Why' = 'for which'.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-056",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The new regulations will ______ affect small businesses.",
+    "choices": ["significant", "significantly", "significance", "signify"],
+    "answer": 1,
+    "explanation": "An adverb is needed to modify the verb 'affect'. 'Significantly' = to a great degree.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-057",
+    "part": 5,
+    "category": "grammar-conditional",
+    "stem": "______ you need any assistance, please contact our support team.",
+    "choices": ["Should", "Would", "Could", "Might"],
+    "answer": 0,
+    "explanation": "'Should you need' = 'If you should need' — formal conditional with subject-verb inversion.",
+    "difficulty": 3
+  },
+  {
+    "id": "p5-058",
+    "part": 5,
+    "category": "grammar-gerund",
+    "stem": "The manager is responsible ______ overseeing the daily operations.",
+    "choices": ["to", "of", "for", "with"],
+    "answer": 2,
+    "explanation": "'Responsible for + gerund' is a fixed collocation.",
+    "difficulty": 1
+  },
+  {
+    "id": "p5-059",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The company aims to ______ customer satisfaction through better service.",
+    "choices": ["enhance", "enlarge", "enforce", "endure"],
+    "answer": 0,
+    "explanation": "'Enhance' means to improve or increase the quality of something.",
+    "difficulty": 2
+  },
+  {
+    "id": "p5-060",
+    "part": 5,
+    "category": "grammar-tense",
+    "stem": "Sales ______ by 20% if the marketing budget is increased.",
+    "choices": ["rise", "rose", "will rise", "have risen"],
+    "answer": 2,
+    "explanation": "First conditional: If + present tense, will + base form. Future result of a present condition.",
+    "difficulty": 2
+  },
+
+  {
+    "id": "ro-001",
+    "part": 5,
+    "type": "reorder",
+    "category": "grammar-word-order",
+    "stem": "Arrange into a correct sentence:\n[ meeting / the / been / has / postponed ]",
+    "choices": ["The meeting has been postponed.", "The has been meeting postponed.", "Has the meeting been postponed.", "Been the meeting has postponed."],
+    "answer": 0,
+    "explanation": "Passive voice: Subject + has been + past participle. 'The meeting has been postponed.'",
+    "difficulty": 1
+  },
+  {
+    "id": "ro-002",
+    "part": 5,
+    "type": "reorder",
+    "category": "grammar-word-order",
+    "stem": "Arrange into a correct sentence:\n[ forward / we / to / look / hearing / you / from ]",
+    "choices": ["We look forward to hearing from you.", "We forward look to hearing from you.", "We look to forward hearing from you.", "We hearing look forward to from you."],
+    "answer": 0,
+    "explanation": "'Look forward to + gerund' is a fixed expression. 'We look forward to hearing from you.'",
+    "difficulty": 2
+  },
+  {
+    "id": "ro-003",
+    "part": 5,
+    "type": "reorder",
+    "category": "grammar-word-order",
+    "stem": "Arrange into a correct sentence:\n[ not / did / the / arrive / package / on / time ]",
+    "choices": ["The package did not arrive on time.", "Did not the package arrive on time.", "The package not did arrive on time.", "Not the package did arrive on time."],
+    "answer": 0,
+    "explanation": "Negative past simple: Subject + did not + base verb. 'The package did not arrive on time.'",
+    "difficulty": 1
+  },
+  {
+    "id": "ro-004",
+    "part": 5,
+    "type": "reorder",
+    "category": "grammar-word-order",
+    "stem": "Arrange into a correct sentence:\n[ as / possible / soon / as / please / respond ]",
+    "choices": ["Please respond as soon as possible.", "Respond please as soon as possible.", "As soon as possible please respond.", "Please as soon respond as possible."],
+    "answer": 0,
+    "explanation": "'As soon as possible' (ASAP) is a fixed phrase. Polite request: 'Please + verb + ASAP.'",
+    "difficulty": 1
+  },
+  {
+    "id": "ro-005",
+    "part": 5,
+    "type": "reorder",
+    "category": "grammar-word-order",
+    "stem": "Arrange into a correct sentence:\n[ if / would / I / appreciate / it / you / could / help ]",
+    "choices": ["I would appreciate it if you could help.", "If you could help I would appreciate it.", "I appreciate would it if you could help.", "Would I appreciate it if you could help."],
+    "answer": 0,
+    "explanation": "'I would appreciate it if you could...' is a polite request pattern using conditional.",
+    "difficulty": 3
+  },
+
+  {
+    "id": "tf-001",
+    "part": 5,
+    "type": "true-false",
+    "category": "grammar-check",
+    "stem": "Is this sentence correct?\n\"She don't like coffee.\"",
+    "choices": ["Correct", "Incorrect — should be: She doesn't like coffee."],
+    "answer": 1,
+    "explanation": "Third person singular (she/he/it) requires 'doesn't', not 'don't'.",
+    "difficulty": 1
+  },
+  {
+    "id": "tf-002",
+    "part": 5,
+    "type": "true-false",
+    "category": "grammar-check",
+    "stem": "Is this sentence correct?\n\"The team have completed the project on schedule.\"",
+    "choices": ["Correct (British English)", "Incorrect — should be: The team has completed..."],
+    "answer": 0,
+    "explanation": "In British English, collective nouns like 'team' can take plural verbs. In American English, 'has' is preferred. Both are acceptable on TOEIC.",
+    "difficulty": 3
+  },
+  {
+    "id": "tf-003",
+    "part": 5,
+    "type": "true-false",
+    "category": "grammar-check",
+    "stem": "Is this sentence correct?\n\"Despite of the bad weather, the event was successful.\"",
+    "choices": ["Correct", "Incorrect — should be: Despite the bad weather (no 'of')"],
+    "answer": 1,
+    "explanation": "'Despite' is used directly without 'of'. 'In spite of' uses 'of', but 'despite' does not.",
+    "difficulty": 2
+  },
+  {
+    "id": "tf-004",
+    "part": 5,
+    "type": "true-false",
+    "category": "grammar-check",
+    "stem": "Is this sentence correct?\n\"I have been working here since three years.\"",
+    "choices": ["Correct", "Incorrect — should be: ...for three years / ...since 2023"],
+    "answer": 1,
+    "explanation": "'Since' is for a point in time (since 2023). 'For' is for a duration (for three years).",
+    "difficulty": 2
+  },
+  {
+    "id": "tf-005",
+    "part": 5,
+    "type": "true-false",
+    "category": "grammar-check",
+    "stem": "Is this sentence correct?\n\"Would you mind opening the window?\"",
+    "choices": ["Correct", "Incorrect — should be: Would you mind to open..."],
+    "answer": 0,
+    "explanation": "'Would you mind + gerund (-ing)' is the correct pattern for polite requests.",
+    "difficulty": 1
+  },
+
+  {
+    "id": "mn-001",
+    "part": 5,
+    "type": "meaning",
+    "category": "vocabulary-meaning",
+    "stem": "What does \"deadline\" mean?",
+    "choices": ["A type of finish line in racing", "The latest time something must be completed", "A cable used in telecommunications", "A permanent decision"],
+    "answer": 1,
+    "explanation": "'Deadline' = the latest time or date by which something should be completed.",
+    "difficulty": 1
+  },
+  {
+    "id": "mn-002",
+    "part": 5,
+    "type": "meaning",
+    "category": "vocabulary-meaning",
+    "stem": "What does \"mandatory\" mean?",
+    "choices": ["Optional", "Required by rule or law", "Recommended", "Temporary"],
+    "answer": 1,
+    "explanation": "'Mandatory' means required, compulsory, obligatory — the opposite of optional.",
+    "difficulty": 1
+  },
+  {
+    "id": "mn-003",
+    "part": 5,
+    "type": "meaning",
+    "category": "vocabulary-meaning",
+    "stem": "What does \"feasible\" mean?",
+    "choices": ["Expensive", "Possible and practical to do", "Risky", "Complicated"],
+    "answer": 1,
+    "explanation": "'Feasible' means possible to do easily or conveniently. 'A feasible plan' = a realistic plan.",
+    "difficulty": 2
+  },
+  {
+    "id": "mn-004",
+    "part": 5,
+    "type": "meaning",
+    "category": "vocabulary-meaning",
+    "stem": "What does \"adjacent\" mean?",
+    "choices": ["Far away", "Next to or near", "Above", "Opposite"],
+    "answer": 1,
+    "explanation": "'Adjacent' means next to, close to, or adjoining. 'The adjacent building' = the building next door.",
+    "difficulty": 2
+  },
+  {
+    "id": "mn-005",
+    "part": 5,
+    "type": "meaning",
+    "category": "vocabulary-meaning",
+    "stem": "What does \"tentative\" mean?",
+    "choices": ["Final and confirmed", "Not certain or fixed; provisional", "Aggressive", "Detailed"],
+    "answer": 1,
+    "explanation": "'Tentative' means not certain, provisional, or hesitant. 'A tentative schedule' may change.",
+    "difficulty": 2
+  },
+  {
+    "id": "mn-006",
+    "part": 5,
+    "type": "meaning",
+    "category": "vocabulary-meaning",
+    "stem": "Choose the closest meaning of the underlined word:\n\"The CEO made a *compelling* argument for the merger.\"",
+    "choices": ["Boring", "Convincing and persuasive", "Short", "Illegal"],
+    "answer": 1,
+    "explanation": "'Compelling' means very convincing, persuasive, or impossible to ignore.",
+    "difficulty": 2
+  },
+  {
+    "id": "mn-007",
+    "part": 5,
+    "type": "meaning",
+    "category": "vocabulary-meaning",
+    "stem": "Choose the closest meaning of the underlined word:\n\"The report was *thorough* and covered every detail.\"",
+    "choices": ["Brief", "Complete and detailed", "Confusing", "Outdated"],
+    "answer": 1,
+    "explanation": "'Thorough' means complete with regard to every detail; not superficial or partial.",
+    "difficulty": 2
+  },
+  {
+    "id": "mn-008",
+    "part": 5,
+    "type": "meaning",
+    "category": "vocabulary-meaning",
+    "stem": "What does \"comply with\" mean?",
+    "choices": ["To complain about", "To act in accordance with rules", "To compete against", "To complete a task"],
+    "answer": 1,
+    "explanation": "'Comply with' means to follow, obey, or act in accordance with rules or regulations.",
+    "difficulty": 2
+  },
+  {
+    "id": "mn-009",
+    "part": 5,
+    "type": "meaning",
+    "category": "vocabulary-meaning",
+    "stem": "What does \"fluctuate\" mean?",
+    "choices": ["To remain constant", "To rise and fall irregularly", "To disappear", "To improve steadily"],
+    "answer": 1,
+    "explanation": "'Fluctuate' means to vary or change irregularly. 'Prices fluctuate' = prices go up and down.",
+    "difficulty": 3
+  },
+  {
+    "id": "mn-010",
+    "part": 5,
+    "type": "meaning",
+    "category": "vocabulary-meaning",
+    "stem": "What does \"expedite\" mean?",
+    "choices": ["To delay", "To speed up a process", "To cancel", "To investigate"],
+    "answer": 1,
+    "explanation": "'Expedite' means to make an action or process happen sooner or more quickly.",
+    "difficulty": 3
+  }
+]

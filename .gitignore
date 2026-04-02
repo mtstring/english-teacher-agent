@@ -1,7 +1,7 @@
 node_modules/
 .env*
 !.env.example
-data/
+/data/
 discord-bot/logs/
 discord-bot/.session-id
 discord-bot/.pid
