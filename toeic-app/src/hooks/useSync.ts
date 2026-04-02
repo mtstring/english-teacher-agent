@@ -11,9 +11,9 @@ export async function syncProgress(): Promise<void> {
 
     // Get weak points from recent wrong answers
     const recentWrong = await db.answers
-      .where("correct")
-      .equals(0)
+      .orderBy("id")
       .reverse()
+      .filter((a) => !a.correct)
       .limit(50)
       .toArray();
 
