@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.english-teacher.nag-morning</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/yuki/.bun/bin/bun</string>
+    <string>run</string>
+    <string>scripts/nag-check.ts</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/yuki/Work/ai-agents/english-teacher-agent</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>HOME</key>
+    <string>/Users/yuki</string>
+    <key>PATH</key>
+    <string>/Users/yuki/.local/bin:/Users/yuki/.bun/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>9</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/yuki/Work/ai-agents/english-teacher-agent/discord-bot/logs/nag-stdout.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/yuki/Work/ai-agents/english-teacher-agent/discord-bot/logs/nag-stderr.log</string>
+</dict>
+</plist>

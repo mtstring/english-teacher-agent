@@ -1,0 +1,12 @@
+node_modules/
+.env*
+!.env.example
+data/
+discord-bot/logs/
+discord-bot/.session-id
+discord-bot/.pid
+.DS_Store
+.claude-session-log.md
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+toeic-app/dist/
