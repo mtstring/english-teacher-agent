@@ -135,6 +135,7 @@ export function ReviewSession() {
       </div>
 
       <QuestionCard
+        key={currentQuestion.id}
         question={currentQuestion}
         onAnswer={answer}
         progress={progress}

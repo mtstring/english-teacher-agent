@@ -82,8 +82,8 @@ export function useQuiz(sessionType: SessionType, questionCount = 5) {
       record.totalAnswered += newAnswers.length;
       await db.dailyRecords.put(record);
 
-      // Sync progress to agent
-      await syncProgress();
+      // Sync progress to agent (non-blocking)
+      syncProgress().catch((err) => console.warn("[Sync] failed:", err));
     }
 
     setState({

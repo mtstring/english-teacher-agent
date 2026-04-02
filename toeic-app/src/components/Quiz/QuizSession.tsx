@@ -128,6 +128,7 @@ export function QuizSession() {
       </div>
 
       <QuestionCard
+        key={currentQuestion.id}
         question={currentQuestion}
         onAnswer={answer}
         progress={progress}
