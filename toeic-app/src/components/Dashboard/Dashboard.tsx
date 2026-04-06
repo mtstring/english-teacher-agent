@@ -9,6 +9,7 @@ import {
 } from "../../db";
 import { syncProgress } from "../../hooks/useSync";
 import { getSRSCount } from "../../hooks/useSRS";
+import { useNotifications } from "../../hooks/useNotifications";
 
 interface Stats {
   totalAnswered: number;
@@ -67,6 +68,13 @@ export function Dashboard() {
     }
     setSyncing(false);
   };
+
+  // true when all 3 main sessions are done (null while data is loading)
+  const studyDone =
+    today === null
+      ? null
+      : !!(today.morning && today.noon && today.evening);
+  const { permission: notifPermission, requestPermission } = useNotifications(studyDone);
 
   const daysLeft = daysUntil(EXAM_DATE);
   const sessions = [
@@ -207,6 +215,29 @@ export function Dashboard() {
             <span className="text-yellow-400 font-bold">Go →</span>
           </div>
         </Link>
+
+        {/* Notification Permission Button */}
+        {notifPermission === "default" && (
+          <button
+            onClick={requestPermission}
+            className="w-full bg-pink-500/10 border-2 border-pink-400/40 hover:border-pink-400 rounded-xl p-4 transition-colors"
+          >
+            <div className="flex items-center justify-center gap-2">
+              <span className="text-xl">🔔</span>
+              <span className="font-bold text-pink-300">Enable Study Reminders</span>
+            </div>
+            <p className="text-xs text-slate-400 mt-1">
+              Lisa will nag you if you forget to study~ 💢
+            </p>
+          </button>
+        )}
+        {notifPermission === "denied" && (
+          <div className="w-full bg-slate-800/50 border border-slate-700 rounded-xl p-4 text-center">
+            <p className="text-sm text-slate-500">
+              🔕 Notifications blocked — enable in browser settings to get nag alerts
+            </p>
+          </div>
+        )}
 
         {/* Sync Button */}
         <button
