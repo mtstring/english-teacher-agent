@@ -7,6 +7,12 @@ import { addToSRS, advanceSRS } from "./useSRS";
 
 const allQuestions = questionsData as Question[];
 
+function shuffleChoices(q: Question): Question {
+  const correctChoice = q.choices[q.answer];
+  const shuffled = [...q.choices].sort(() => Math.random() - 0.5);
+  return { ...q, choices: shuffled, answer: shuffled.indexOf(correctChoice) };
+}
+
 export type SessionType = "morning" | "noon" | "evening" | "review" | "diagnosis";
 
 interface QuizState {
@@ -23,10 +29,10 @@ export function useQuiz(sessionType: SessionType, questionCount = 5) {
   const start = useCallback((customQuestions?: Question[]) => {
     let selected: Question[];
     if (customQuestions) {
-      selected = customQuestions;
+      selected = customQuestions.map(shuffleChoices);
     } else {
       const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
-      selected = shuffled.slice(0, questionCount);
+      selected = shuffled.slice(0, questionCount).map(shuffleChoices);
     }
     setState({
       questions: selected,
