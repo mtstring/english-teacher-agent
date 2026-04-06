@@ -238,6 +238,20 @@ export function Dashboard() {
             </p>
           </div>
         )}
+        {notifPermission === "granted" && (
+          <button
+            onClick={async () => {
+              const reg = await navigator.serviceWorker.ready;
+              reg.active?.postMessage({ type: "TEST_NAG" });
+            }}
+            className="w-full bg-slate-800 border-2 border-slate-700 hover:border-pink-400 rounded-xl p-3 transition-colors"
+          >
+            <div className="flex items-center justify-center gap-2">
+              <span className="text-lg">🔔</span>
+              <span className="text-sm font-bold text-slate-300">Test Notification</span>
+            </div>
+          </button>
+        )}
 
         {/* Sync Button */}
         <button

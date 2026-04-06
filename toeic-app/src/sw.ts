@@ -109,6 +109,19 @@ self.addEventListener("message", (event) => {
     }
   }
 
+  if (data.type === "TEST_NAG") {
+    const msg = getRandomNagMessage();
+    const iconUrl = new URL("icon-192.png", self.registration.scope).href;
+    self.registration.showNotification(msg.title, {
+      body: msg.body,
+      icon: iconUrl,
+      badge: iconUrl,
+      tag: "daily-nag-test",
+      requireInteraction: true,
+      data: { url: self.registration.scope },
+    });
+  }
+
   if (data.type === "SKIP_WAITING") {
     self.skipWaiting();
   }
