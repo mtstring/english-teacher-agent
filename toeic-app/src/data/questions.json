@@ -907,12 +907,12 @@
     "stem": "Arrange into a correct sentence:\n[ meeting / the / been / has / postponed ]",
     "choices": [
       "The meeting has been postponed.",
-      "The has been meeting postponed.",
-      "Been the meeting has postponed.",
-      "Has the meeting been postponed."
+      "The meeting was been postponed.",
+      "The meeting has postponed been.",
+      "The meeting been has postponed."
     ],
     "answer": 0,
-    "explanation": "Passive voice: Subject + has been + past participle. 'The meeting has been postponed.'",
+    "explanation": "Passive voice: Subject + has been + past participle. 'The meeting has been postponed.' ('was been' is wrong — mix of past simple and passive.)",
     "difficulty": 1
   },
   {
@@ -924,11 +924,11 @@
     "choices": [
       "We forward look to hearing from you.",
       "We look forward to hearing from you.",
-      "We look to forward hearing from you.",
-      "We hearing look forward to from you."
+      "We look forward to hear from you.",
+      "We look to forward hearing from you."
     ],
     "answer": 1,
-    "explanation": "'Look forward to + gerund' is a fixed expression. 'We look forward to hearing from you.'",
+    "explanation": "'Look forward to + gerund (-ing)' is a fixed expression. 'To' here is a preposition, not part of an infinitive — so 'hear' (infinitive) is wrong.",
     "difficulty": 2
   },
   {
@@ -971,12 +971,12 @@
     "stem": "Arrange into a correct sentence:\n[ if / would / I / appreciate / it / you / could / help ]",
     "choices": [
       "I would appreciate it if you could help.",
-      "I appreciate would it if you could help.",
-      "If you could help I would appreciate it.",
+      "I would appreciate if you could help it.",
+      "I would it appreciate if you could help.",
       "Would I appreciate it if you could help."
     ],
     "answer": 0,
-    "explanation": "'I would appreciate it if you could...' is a polite request pattern using conditional.",
+    "explanation": "'I would appreciate it if you could...' — the dummy pronoun 'it' must come directly after 'appreciate', not at the end of the sentence.",
     "difficulty": 3
   },
   {
@@ -1056,10 +1056,10 @@
     "category": "vocabulary-meaning",
     "stem": "What does \"deadline\" mean?",
     "choices": [
-      "A cable used in telecommunications",
-      "The latest time something must be completed",
-      "A permanent decision",
-      "A type of finish line in racing"
+      "A cable used to transfer data between devices",
+      "The latest time by which something must be done",
+      "A final ruling that cannot be reversed",
+      "A marked line indicating the end of a race"
     ],
     "answer": 1,
     "explanation": "'Deadline' = the latest time or date by which something should be completed.",
@@ -1073,9 +1073,9 @@
     "stem": "What does \"mandatory\" mean?",
     "choices": [
       "Required by rule or law",
-      "Temporary",
-      "Recommended",
-      "Optional"
+      "Lasting for only a limited period of time",
+      "Suggested but not strictly required",
+      "Left to personal choice or preference"
     ],
     "answer": 0,
     "explanation": "'Mandatory' means required, compulsory, obligatory — the opposite of optional.",
@@ -1088,13 +1088,13 @@
     "category": "vocabulary-meaning",
     "stem": "What does \"feasible\" mean?",
     "choices": [
-      "Expensive",
-      "Risky",
-      "Complicated",
+      "Requiring a considerable amount of money",
+      "Involving significant potential danger",
+      "Difficult to understand or carry out",
       "Possible and practical to do"
     ],
     "answer": 3,
-    "explanation": "'Feasible' means possible to do easily or conveniently. 'A feasible plan' = a realistic plan.",
+    "explanation": "'Feasible' means possible to do easily or conveniently. 'A feasible plan' = a realistic, achievable plan.",
     "difficulty": 2
   },
   {
@@ -1104,10 +1104,10 @@
     "category": "vocabulary-meaning",
     "stem": "What does \"adjacent\" mean?",
     "choices": [
-      "Next to or near",
-      "Far away",
-      "Above",
-      "Opposite"
+      "Next to or very close to something",
+      "At a considerable distance from something",
+      "Located at a higher level or position",
+      "Positioned directly across from something"
     ],
     "answer": 0,
     "explanation": "'Adjacent' means next to, close to, or adjoining. 'The adjacent building' = the building next door.",
@@ -1120,13 +1120,13 @@
     "category": "vocabulary-meaning",
     "stem": "What does \"tentative\" mean?",
     "choices": [
-      "Aggressive",
-      "Detailed",
-      "Not certain or fixed; provisional",
-      "Final and confirmed"
+      "Done with confidence and without hesitation",
+      "Precise and thorough in every aspect",
+      "Not certain or fixed; subject to change",
+      "Officially decided and no longer open to revision"
     ],
     "answer": 2,
-    "explanation": "'Tentative' means not certain, provisional, or hesitant. 'A tentative schedule' may change.",
+    "explanation": "'Tentative' means not certain, provisional, or hesitant. 'A tentative schedule' may still change.",
     "difficulty": 2
   },
   {
@@ -1136,10 +1136,10 @@
     "category": "vocabulary-meaning",
     "stem": "Choose the closest meaning of the underlined word:\n\"The CEO made a *compelling* argument for the merger.\"",
     "choices": [
-      "Boring",
-      "Convincing and persuasive",
-      "Short",
-      "Illegal"
+      "Dull and failing to hold the listener's attention",
+      "Convincing and hard to ignore or dismiss",
+      "Brief and lacking in supporting evidence",
+      "Not permitted under current regulations"
     ],
     "answer": 1,
     "explanation": "'Compelling' means very convincing, persuasive, or impossible to ignore.",
@@ -1152,10 +1152,10 @@
     "category": "vocabulary-meaning",
     "stem": "Choose the closest meaning of the underlined word:\n\"The report was *thorough* and covered every detail.\"",
     "choices": [
-      "Outdated",
-      "Brief",
-      "Confusing",
-      "Complete and detailed"
+      "No longer relevant or current in its approach",
+      "Covering only the most essential points",
+      "Difficult to follow or understand clearly",
+      "Complete and not missing any important detail"
     ],
     "answer": 3,
     "explanation": "'Thorough' means complete with regard to every detail; not superficial or partial.",
@@ -1168,13 +1168,13 @@
     "category": "vocabulary-meaning",
     "stem": "What does \"comply with\" mean?",
     "choices": [
-      "To complete a task",
-      "To compete against",
-      "To complain about",
-      "To act in accordance with rules"
+      "To finish an assigned task within a set timeframe",
+      "To try to outperform a rival in the same field",
+      "To express dissatisfaction or objection openly",
+      "To act in accordance with rules or regulations"
     ],
     "answer": 3,
-    "explanation": "'Comply with' means to follow, obey, or act in accordance with rules or regulations.",
+    "explanation": "'Comply with' means to follow or obey rules, standards, or instructions.",
     "difficulty": 2
   },
   {
@@ -1184,13 +1184,13 @@
     "category": "vocabulary-meaning",
     "stem": "What does \"fluctuate\" mean?",
     "choices": [
-      "To remain constant",
-      "To disappear",
-      "To improve steadily",
-      "To rise and fall irregularly"
+      "To stay at a consistent level without variation",
+      "To gradually reduce until it completely stops",
+      "To increase at a steady and predictable rate",
+      "To rise and fall repeatedly in an irregular pattern"
     ],
     "answer": 3,
-    "explanation": "'Fluctuate' means to vary or change irregularly. 'Prices fluctuate' = prices go up and down.",
+    "explanation": "'Fluctuate' means to vary or change irregularly. 'Prices fluctuate' = prices go up and down unpredictably.",
     "difficulty": 3
   },
   {
@@ -1200,13 +1200,106 @@
     "category": "vocabulary-meaning",
     "stem": "What does \"expedite\" mean?",
     "choices": [
-      "To cancel",
-      "To speed up a process",
-      "To delay",
-      "To investigate"
+      "To officially bring a process to an end",
+      "To make something happen more quickly",
+      "To push a scheduled event to a later date",
+      "To examine something carefully and in detail"
     ],
     "answer": 1,
     "explanation": "'Expedite' means to make an action or process happen sooner or more quickly.",
+    "difficulty": 3
+  },
+  {
+    "id": "mn-011",
+    "part": 5,
+    "type": "meaning",
+    "category": "vocabulary-meaning",
+    "stem": "What does \"exacerbate\" mean?",
+    "choices": [
+      "To completely resolve a difficult situation",
+      "To carefully examine a problem in detail",
+      "To make a bad situation worse",
+      "To gradually improve through repeated effort"
+    ],
+    "answer": 2,
+    "explanation": "'Exacerbate' means to make a problem or bad situation worse. 'The delay exacerbated the issue.'",
+    "difficulty": 3
+  },
+  {
+    "id": "mn-012",
+    "part": 5,
+    "type": "meaning",
+    "category": "vocabulary-meaning",
+    "stem": "Choose the closest meaning of the underlined word:\n\"The new policy will *mitigate* the impact of rising costs.\"",
+    "choices": [
+      "Greatly increase the severity of something",
+      "Ignore or fail to address a known problem",
+      "Reduce the harmful effects of something",
+      "Transfer responsibility to another party"
+    ],
+    "answer": 2,
+    "explanation": "'Mitigate' means to lessen or reduce the severity of something harmful. It is often paired with 'risk' or 'impact'.",
+    "difficulty": 3
+  },
+  {
+    "id": "mn-013",
+    "part": 5,
+    "type": "meaning",
+    "category": "vocabulary-meaning",
+    "stem": "What does \"scrutinize\" mean?",
+    "choices": [
+      "To approve something without further review",
+      "To examine something very carefully and critically",
+      "To organize items into a specific order",
+      "To share information with a wider audience"
+    ],
+    "answer": 1,
+    "explanation": "'Scrutinize' means to examine or inspect something very closely and critically. 'Scrutinize the contract' = read it carefully for problems.",
+    "difficulty": 3
+  },
+  {
+    "id": "p5-061",
+    "part": 5,
+    "category": "vocabulary",
+    "stem": "The merger will ______ affect the jobs of over 200 employees.",
+    "choices": [
+      "effect",
+      "affect",
+      "affection",
+      "effective"
+    ],
+    "answer": 1,
+    "explanation": "'Affect' is a verb meaning to have an impact on. 'Effect' is usually a noun (= result). 'The merger will affect jobs' is correct.",
+    "difficulty": 3
+  },
+  {
+    "id": "p5-062",
+    "part": 5,
+    "category": "grammar-conditional",
+    "stem": "______ the budget been approved earlier, we could have launched on schedule.",
+    "choices": [
+      "If",
+      "Had",
+      "Should",
+      "Were"
+    ],
+    "answer": 1,
+    "explanation": "Inverted third conditional: 'Had + subject + past participle' = 'If + subject + had + past participle'. A formal written style.",
+    "difficulty": 3
+  },
+  {
+    "id": "p5-063",
+    "part": 5,
+    "category": "grammar-conjunction",
+    "stem": "______ did the project go over budget, but it was also delivered two weeks late.",
+    "choices": [
+      "Not only",
+      "Neither",
+      "Hardly",
+      "Scarcely"
+    ],
+    "answer": 0,
+    "explanation": "'Not only... but also' is a correlative conjunction for emphasis. When 'not only' starts a clause, subject-verb inversion follows: 'Not only did the project...'",
     "difficulty": 3
   }
 ]
